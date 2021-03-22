@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: #221107;
+    z-index: 1111;
+}
+nav .name {
+    color: white;
+}
+nav .name h3 {
+    margin-top: -25px;
+}
+
+nav ul {
+    display: flex;
+    /* padding-top: 10px; */
+}
+nav ul li {
+    padding: 20px;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+
+}
+footer {
+    padding: 80px;
+    margin-top: 100px;
+    background: #221107 ;
+}
+footer i {
+    padding-right: 30px;
+    color: white;
+}
+/* Home ____________________________________________________________________________ */
+
+.pic_home {
+    background: url('../Images/cafè.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 0px;
+    
+}
+.pic_home h3{
+    margin-top: 0;
+    margin-left: 20%;
+    padding-top: 25vh;
+    color: #221107;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 30px;
+}
+.pic_home h1 {
+    font-size: 80px;
+    color: #221107;
+    margin-top: 0;
+    margin-left: 20%;
+   
+}
+.great_coffee,
+.ethical_coffee {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.great_pic,
+.ethical_pic {
+    width: 30%;
+    height: 80vh;
+}
+.great_pic {
+    background: url('https://www.urbavorekitchen.com/wp-content/uploads/2020/11/Benefits-of-drinking-coffee.jpg');
+    background-size: cover;
+
+}
+.great_paragraph,
+.ethical_pic {
+    width: 30%;
+    margin-left: -30%;
+}
+.great_paragraph p,
+.ethical_paragraph p{
+    margin-top: 20px;
+    line-height: 20pt;
+    
+}
+.great_paragraph h3,
+.ethical_paragraph h3{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 30px;
+}
+.great_paragraph h1{
+    margin-top: -20px;
+}
+
+.ethical_paragraph {
+    width: 30%;
+}
+.ethical_pic{
+    background: url('https://static.wixstatic.com/media/5bfb6f_7dce9d638b504967a301e61c486249fa.jpg/v1/fill/w_488,h_756,al_c,q_85,usm_0.66_1.00_0.01/5bfb6f_7dce9d638b504967a301e61c486249fa.webp');
+    background-size: cover;
+}
+
+
+/* Menus______________________________________________________________________________________ */
+
+.drink {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.ruler {
+    width: 30%;
+    height: 2px;
+    margin-top: 40px;
+    background: #221107;
+}
+.drink-menus {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.drink-menus img { 
+    width: 40%;
+    height: 60vh;
+}
